@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- No secrets here yet, stop looking. -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Github portfolio.">
+
+    <title>Lassi Ahonen - Portfolio - Current Project</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bulma.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar is-dark header">
+        <div class="navbar-menu">
+            <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+                <a href="index.html" class="navbar-item header-link"> Home </a>
+                <a href="neo-defence.html" class="navbar-item header-link"> Neo Defence </a>
+                <a href="space-game.html" class="navbar-item header-link"> Space Game </a>
+                <a href="current-project.html" class="navbar-item is-active header-link"> Current Project </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="content text-content">
+            <h1 class="title">Dialogue Graph</h1>
+            <p>
+                Node based dialogue editor made using Unity's experimental GraphView API. This system allows quick and
+                easy way to create complex scenarios with branching dialogue.
+            </p>
+            <p>
+                I started this project to learn how to implement custom editors with Unity and to create a solid
+                dialogue
+                system for my future projects since Unity does not offer one out of the box.
+            </p>
+
+            <h2>Characters</h2>
+            <p>
+                You can create character assets that hold character specific data which reduces the amount of references
+                and values
+                to assign every time you want to use certain settings for a character, for example you should never have
+                to type in the character name each time you create a new piece of dialogue with the character in it.
+            </p>
+            <figure class="image">
+                <img src="images/current/character_scriptable_object.png" class="projectImg">
+            </figure>
+
+            <h2>Graph Editor</h2>
+            <p>The dialogue graph editor window is used for making dialogue by connecting different type of nodes
+                together to create a network of nodes.</p>
+            <figure class="image">
+                <img src="images/current/dialogue_graph.png" class="projectImg">
+            </figure>
+
+            <h3>Blackboard</h3>
+            <p>Holds data for dialogue specific characters and interpolation data (replacing tags with variables) which are used for dialogue creation.</p>
+
+            <h3>Nodes</h3>
+            <dl>
+                <dt><b>Entry Node</b></dt>
+                <dd>- Index based starting point for dialogue.</dd>
+                <dt><b>Single Choice Node</b></dt>
+                <dd>- Node that has text, portrait and character. This information gets shown to the player during runtime.</dd>
+                <dt><b>Multiple Choice Node</b></dt>
+                <dd>- Same as single choice but after the dialogue has been read, prompts player to make a choice with as many choices as you want.</dd>
+                <dt><b>Flag Set Node</b></dt>
+                <dd>- Saves a flag (string), that can be used for checking if player has done a certain action.</dd>
+                <dt><b>Flag Check Node</b></dt>
+                <dd>- Checks if a certain flag is set and continues to the next node depending if it was set or not.</dd>
+                <dt><b>Event Node</b></dt>
+                <dd>- Takes an event scriptable object which will raise an event for all listeners that have reference to the event given. This is used for making stuff happend during runtime.</dd>
+                <dt><b>Group</b></dt>
+                <dd>- Groups nodes, makes it easier to categorize massive amounts of nodes. This has no effect in runtime.</dd>
+            </dl>
+
+            <h2>Runtime</h2>
+            <p>Graphs made with the editor can be saved as scriptable objects that can be used during runtime to play
+                back the dialogue.</p>
+            <figure class="image">
+                <img src="images/current/dialogue_scriptable_object.png" class="projectImg">
+            </figure>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
