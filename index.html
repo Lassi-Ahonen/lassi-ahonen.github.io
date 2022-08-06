@@ -17,7 +17,15 @@
 <body>
 
     <nav class="navbar is-dark header">
-        <div class="navbar-menu">
+        <div class="navbar-brand">
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu" id="nav-links">
             <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
                 <a href="index.html" class="navbar-item is-active header-link"> Home </a>
                 <a href="neo-defence.html" class="navbar-item header-link"> Neo Defence </a>
@@ -37,7 +45,7 @@
             <div class="columns">
                 <div class="column">
                     <!-- Neo Defence -->
-                    <div class="card">
+                    <div class="card" style="height: 100%;">
 
                         <div class="card-image">
                             <figure class="image is-16by9 home-image">
@@ -45,7 +53,7 @@
                             </figure>
                         </div>
 
-                        <div class="card-content" style="height: 160px;">
+                        <div class="card-content">
                             <div class="content">
                                 <h4>Neo Defence</h4>
                                 2D Tile based tower defence game with pseudorandomly generated maps.
@@ -55,7 +63,7 @@
                 </div>
                 <div class="column">
                     <!-- Space Game -->
-                    <div class="card">
+                    <div class="card" style="height: 100%;">
 
                         <div class="card-image">
                             <figure class="image is-16by9 home-image">
@@ -63,7 +71,7 @@
                             </figure>
                         </div>
 
-                        <div class="card-content" style="height: 160px;">
+                        <div class="card-content">
                             <div class="content">
                                 <h4>Space Game</h4>
                                 2D Competitive physics based game where you control a spaceship through different levels with limited fuel and environmental hazards.
@@ -73,7 +81,7 @@
                 </div>
                 <div class="column">
                     <!-- Current Project -->
-                    <div class="card">
+                    <div class="card" style="height: 100%;">
 
                         <div class="card-image">
                             <figure class="image is-16by9 home-image">
@@ -81,7 +89,7 @@
                             </figure>
                         </div>
 
-                        <div class="card-content" style="height: 160px;">
+                        <div class="card-content">
                             <div class="content">
                                 <h4>Current Project</h4>
                                 Node based dialogue editor for Unity.
@@ -95,6 +103,8 @@
         </div>
     </div>
 
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
