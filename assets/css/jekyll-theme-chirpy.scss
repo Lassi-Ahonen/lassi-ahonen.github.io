@@ -8,3 +8,14 @@
 ';
 
 /* append your custom style below */
+
+$highlight-color: #e4d72a;
+$font-size-med: 1.3rem;
+
+.highlighted {
+  color: $highlight-color;
+}
+
+.font-med {
+  font-size: $font-size-med;
+}
