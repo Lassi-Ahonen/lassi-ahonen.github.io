@@ -17,7 +17,7 @@ Release year: <span class="highlighted">2024</span>
 Platform: <span class="highlighted">Android</span>
 {: .font-med }
 
-Engine: <span class="highlighted">Unity</span>
+Engine: <i class="fa-brands fa-unity"></i> <span class="highlighted">Unity</span>
 {: .font-med }
 
 ---

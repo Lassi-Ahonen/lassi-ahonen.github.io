@@ -1,6 +1,6 @@
 ---
 title: Dialogue Graph
-description: Node-based dialogue editor for Unity.
+description: Node-based dialogue editor for Unity using the experiemental GraphView API.
 date: 2024-04-01 12:00:00 +0200
 categories: [Tool, Unity (Editor)]
 tags: [unity, programming, editor]
@@ -17,7 +17,7 @@ Creation year: <span class="highlighted">2024</span>
 Programming language: <span class="highlighted">C#</span>
 {: .font-med }
 
-Engine: <span class="highlighted">Unity</span>
+Engine: <i class="fa-brands fa-unity"></i> <span class="highlighted">Unity</span>
 {: .font-med }
 
 ---

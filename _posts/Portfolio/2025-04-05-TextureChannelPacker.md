@@ -1,6 +1,6 @@
 ---
 title: Texture Channel Packer
-description: Unity editor for combining texture color channels into one texture.
+description: Unity editor tool for combining texture color channels into one texture.
 date: 2025-04-05 12:00:00 +0200
 categories: [Tool, Unity (Editor)]
 tags: [unity, programming, graphics, editor]
@@ -17,14 +17,14 @@ Creation year: <span class="highlighted">2025</span>
 Programming language: <span class="highlighted">C#</span>
 {: .font-med }
 
-Engine: <span class="highlighted">Unity</span>
+Engine: <i class="fa-brands fa-unity"></i> <span class="highlighted">Unity</span>
 {: .font-med }
 
 ---
 
 ## Project
 
-Texture channel packer is a tool for creating packed textures. It can take four input textures for each Red, Green, Blue and Alpha channels of the output and fill those color channels from the input textures and color channels.
+Texture channel packer is an Unity editor tool for creating packed textures. It can take up to four input textures for each Red, Green, Blue and Alpha channels of the output and fill those color channels from the input textures and color channels.
 
 ### Key features
 
