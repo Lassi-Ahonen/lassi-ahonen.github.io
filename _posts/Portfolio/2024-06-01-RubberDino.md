@@ -14,7 +14,7 @@ image:
 Release year: <span class="highlighted">2024</span>
 {: .font-med }
 
-Platform: <span class="highlighted">Web</span>
+Platform: <i class="fa-solid fa-globe"></i> <span class="highlighted">Web</span>
 {: .font-med }
 
 Engine: <i class="fa-brands fa-unity"></i> <span class="highlighted">Unity</span>
@@ -24,8 +24,8 @@ Engine: <i class="fa-brands fa-unity"></i> <span class="highlighted">Unity</span
 
 ## My responsibilities
 
-- Game Programmer
-- Game Designer
+<i class="fa-solid fa-code" style="color:#2ddf2d;"></i> Game Programmer<br>
+<i class="fa-solid fa-palette" style="color:#dfa22d;"></i> Game Designer
 
 ---
 
@@ -33,14 +33,16 @@ Engine: <i class="fa-brands fa-unity"></i> <span class="highlighted">Unity</span
 
 RubberDino is a game where you play as a dino with a rubber neck and your mission is to stop meteoroid shower from destroying your planet.
 
-The game was a submission to GameDev.tv Game Jam 2024 and placed at rank #2 in mechanics category and overall recieved praise from other participants.
+The game was a submission to GameDev.tv Game Jam 2024 with 10 days of time and placed at rank #2 in mechanics category and overall recieved praise from other participants.
+
+![Gameplay](/assets/img/portfolio/gif/dino_gameplay.gif)
 
 ### Key features
 
-- Dino made out of rubber
-- Power up to grow the dino in size
-- UFO that destroys all meteoroids on screen
-- Moon that can be used as a shield
+- Move a dino around the globe and hit meteoroids with it's rubbery neck
+- Grab power ups to grow the dino in size
+- Dunk on a UFO that destroys all meteoroids on screen
+- Use the moon as a shield from meteoroids
 
 ## Try it out
 

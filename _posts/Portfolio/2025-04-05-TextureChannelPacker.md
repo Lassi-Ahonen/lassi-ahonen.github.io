@@ -26,6 +26,10 @@ Engine: <i class="fa-brands fa-unity"></i> <span class="highlighted">Unity</span
 
 Texture channel packer is an Unity editor tool for creating packed textures. It can take up to four input textures for each Red, Green, Blue and Alpha channels of the output and fill those color channels from the input textures and color channels.
 
+Editor interface is created using Unity's UI Toolkit.
+
+Texture creation uses [blitting](https://en.wikipedia.org/wiki/Bit_blit){:target="_blank"} with a custom shader to create the output textures.
+
 ### Key features
 
 - Color channel copying from input textures to output

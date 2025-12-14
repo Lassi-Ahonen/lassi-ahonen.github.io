@@ -1,5 +1,5 @@
 ---
 layout: portfolio
-icon: fa-solid fa-circle-user
+icon: fa-solid fa-star
 order: 1
 ---

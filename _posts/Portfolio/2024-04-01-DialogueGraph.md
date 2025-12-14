@@ -26,9 +26,11 @@ Engine: <i class="fa-brands fa-unity"></i> <span class="highlighted">Unity</span
 
 I started this project during 2022 and finished most of the core features but the project went on a hiatus until 2024 where I started a project that required a dialogue system. During that project I polished most of the issues and improved some of the older systems.
 
+This tool was made on the old GraphView API which is going to get replaced by [Graph Toolkit](https://docs.unity3d.com/Packages/com.unity.graphtoolkit@0.4/manual/introduction.html){:target="_blank"} package.
+
 ### Dialogue Graph
 
-Dialogue graph is node-based dialogue editor made using Unity's experimental GraphView API which allows quick and easy way to create complex scenarios with branching dialogue.
+Dialogue graph is node-based dialogue editor made using Unity's experimental GraphView API which allows quick and easy way to create complex scenarios with branching dialogue in an intuitive way.
 
 #### Key features
 
