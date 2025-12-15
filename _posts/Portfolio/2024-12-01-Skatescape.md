@@ -37,6 +37,8 @@ Skatescape is a rythm game inspired by Vib-Ribbon where you need to dodge obstac
 Most of my time for this project went into programming tools for my team to create beatmaps and play frame based animations.
 I was responsible for creating all the core game mechanics for the player and obstacles.
 
+![Gameplay](/assets/img/portfolio/skatescape/skate_gameplay.gif)
+
 ### Key features
 
 - Stage based gameplay with highscores and combo counters
